@@ -1,0 +1,93 @@
+.indexCon{
+  width: 100%;
+  height: 100%;
+}
+
+.banners{
+  height: 300rpx;
+}
+
+.banners image{
+  width: 100%;
+  height: 100%;
+}
+.navCon{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.navItem .iconfont{
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 50rpx;
+  line-height: 100rpx;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgb(240,19,19);
+  color: ivory;
+  margin: 20rpx;
+}
+
+.navItem text:last-child{
+  font-size: 26rpx;
+}
+
+
+/* 推荐 */
+.recommendCon {
+  padding: 20rpx;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+}
+
+.recommendCon .header .title{
+  font-size: 32rpx;
+  line-height: 80rpx;
+  color: #666;
+}
+.recommendCon .header .more{
+  border:  1rpx solid #333;
+  border-radius: 24rpx;
+  font-size: 26rpx;
+  padding: 10rpx 20rpx;
+}
+.topbody{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* 推荐内容区 */
+
+.recommedScroll{
+  display: flex;
+  margin-top: 10rpx;
+}
+.scrollItem{
+  width: 200rpx;
+  margin-right: 10rpx;
+}
+
+.scrollItem image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10%;
+}
+.scrollItem text{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
